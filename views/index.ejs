@@ -1,0 +1,68 @@
+<!--
+* File name: index
+* Type: EJS
+* Author's name: Noah Michael
+* Website name: Portfolio
+* File description: This file contains the main section of the website
+-->
+
+<% include partials/header.ejs %>
+
+<!-- Parallax -->
+<div class="parallax">
+
+  <!-- Start of Home section -->
+  <section id="home" class="sectionHome">
+    <h1>Noah Michael</h1>
+    <div id="typed" class="typed"></div>
+    <div class="homeIcons">
+      <a href="https://github.com/noahhimself"> <img src="../images/GithubButton.png" alt="Github" width="50px" height="50px"> </a>
+      <a href="https://plus.google.com/117824822136374686443"> <img src="../images/GooglePlusButton.png" alt="Google Plus" width="50px" height="50px"> </a>
+      <a href="https://www.linkedin.com/in/noah-michael-52194a129/"> <img src="../images/LinkedInButton.png" alt="LinkedIn" width="50px" height="50px"> </a>
+    </div>
+  </section> <!-- End of Home section -->
+
+  <!-- Start of About section -->
+  <section id="about" class="sectionAbout">
+      <div class="aboutMeColumn">
+          <h2>About Me</h2>
+          <p class="aboutMePara">Hi, I'm Noah Michael. I am a passionate web developer with a creative mind and
+              being intellectually curious, I am very analytical and self driven. I focus highly on quality when
+              delivering the right service with the highest accuracy and commitment while keeping up with changes.
+              You can download my resume by clicking on the icon. <a href="../documents/Resume.pdf" download="Resume.pdf">
+                  <i class="fa fa-file-pdf-o" style="font-size:48px;color:#002266"></i> </a>
+          </p>
+      </div>
+      <div class="myContactColumn">
+          <img class="myContactColumnLogo" src="../images/LogoBlack.png" alt="Logo">
+          <p class="myContactColumnPara">(437) 351-2006</p>
+          <i class="fa fa-mobile" style="font-size: 30px"></i>
+          <p class="myContactColumnPara">noahhimself@gmail.com</p>
+          <i class="fa fa-rocket" style="font-size: 30px"></i>
+      </div>
+  </section> <!-- End of About section -->
+
+  <!-- Start of Skills section -->
+  <section id="skills" class="sectionSkills">
+      <div class="column" style="background-color: white">
+          <div class="HTMLCSSJSColumn">
+              <img src="../images/HTMLCSSJS.png" width="450px" height="250px">
+          </div>
+      </div>
+      <div class="column" style="background-color: black">
+          <div class="meanStackColumn">
+              <img src="../images/MeanStack.png" width="700px" height="400px">
+          </div>
+      </div>
+  </section> <!-- End of Skills section -->
+
+  <!-- Start of Projects section -->
+  <section id="projects" class="sectionProjects">
+      <div class="crudLink">
+      <a href="https://assignment2-200306035.herokuapp.com/"><img src="../images/CRUD.png" alt="CRUD" class="projectImage"></a>
+      </div>
+  </section> <!-- End of Projects section -->
+
+</div> <!-- End of Parallax -->
+
+<% include partials/footer.ejs %>
